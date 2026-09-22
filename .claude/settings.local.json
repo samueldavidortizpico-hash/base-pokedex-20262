@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(rtk ls:*)",
+      "Bash(npm create:*)",
+      "Skill(update-config)"
+    ]
+  },
+  "env": {
+    "GATEGUARD_EXEMPT_GLOBS": "**/pokemon-arena/**"
+  }
+}

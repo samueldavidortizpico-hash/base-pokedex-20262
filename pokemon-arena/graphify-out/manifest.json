@@ -1,0 +1,326 @@
+{
+  ".impeccable/hook.cache.json": {
+    "mtime": 1790033374.5605457,
+    "seen": 1790034045.4383876,
+    "ast_hash": "7355e727414e66edd01a9be202e1de77",
+    "semantic_hash": ""
+  },
+  ".oxlintrc.json": {
+    "mtime": 1789134340.9278314,
+    "seen": 1790034045.4383948,
+    "ast_hash": "5e6e3cea3e89137071c142dd7835b0ef",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1790026847.855651,
+    "seen": 1790034045.4383974,
+    "ast_hash": "804f679e76504c9986dcd1166d51b2b6",
+    "semantic_hash": ""
+  },
+  "src/App.jsx": {
+    "mtime": 1790026487.4164107,
+    "seen": 1790034045.4383988,
+    "ast_hash": "b16e6e177f5262fa71dd27dcaae7796a",
+    "semantic_hash": ""
+  },
+  "src/components/BattleSection.jsx": {
+    "mtime": 1789134959.744465,
+    "seen": 1790034045.4384,
+    "ast_hash": "c1e656d5363ea2b1619a1fd45cc7e0b6",
+    "semantic_hash": ""
+  },
+  "src/components/Battle/BattleScene.jsx": {
+    "mtime": 1790027138.0332544,
+    "seen": 1790034045.4384012,
+    "ast_hash": "a7444a14bc1349c41ef1a3b7508aafea",
+    "semantic_hash": ""
+  },
+  "src/components/Battle/EncounterDialog.jsx": {
+    "mtime": 1790026308.1798155,
+    "seen": 1790034045.4384027,
+    "ast_hash": "ed7c4053d707c74d4b9c6a1d09a32f32",
+    "semantic_hash": ""
+  },
+  "src/components/EvolutionChain.jsx": {
+    "mtime": 1789134842.4477365,
+    "seen": 1790034045.4384036,
+    "ast_hash": "c671eb95655c597129c8c67f34c5e9ce",
+    "semantic_hash": ""
+  },
+  "src/components/FighterCard.jsx": {
+    "mtime": 1789134920.4613388,
+    "seen": 1790034045.438405,
+    "ast_hash": "b341687ce6d6ca5990358a036988fdc1",
+    "semantic_hash": ""
+  },
+  "src/components/HUD/HUD.jsx": {
+    "mtime": 1790027403.3868206,
+    "seen": 1790034045.4384067,
+    "ast_hash": "08eb608a09af5dcd4dd1d04453fe4e1c",
+    "semantic_hash": ""
+  },
+  "src/components/Map/MapCanvas.jsx": {
+    "mtime": 1790033365.2035255,
+    "seen": 1790034045.438408,
+    "ast_hash": "02447089bb1bd4a98dcdc0bd671aae89",
+    "semantic_hash": ""
+  },
+  "src/components/Map/WorldRenderer.jsx": {
+    "mtime": 1790034010.125863,
+    "seen": 1790034045.4384096,
+    "ast_hash": "d7969e801958c444af8540a23606228b",
+    "semantic_hash": ""
+  },
+  "src/components/MoveList.jsx": {
+    "mtime": 1789134814.0900788,
+    "seen": 1790034045.4384105,
+    "ast_hash": "5f8460e88708e25efa061c647372e74a",
+    "semantic_hash": ""
+  },
+  "src/components/Player/Player.jsx": {
+    "mtime": 1790033239.5262816,
+    "seen": 1790034045.4384117,
+    "ast_hash": "fff77321bff5febaf8dc1f27cfab5473",
+    "semantic_hash": ""
+  },
+  "src/components/PokemonCard.jsx": {
+    "mtime": 1789134892.5325022,
+    "seen": 1790034045.4384131,
+    "ast_hash": "cd4cb3b8dd536c41bb9edf829e6a7ea5",
+    "semantic_hash": ""
+  },
+  "src/components/PokemonCard/EvolutionOverlay.jsx": {
+    "mtime": 1790026317.3616402,
+    "seen": 1790034045.438414,
+    "ast_hash": "3d6000dc4b609f8247706edd53b6aff9",
+    "semantic_hash": ""
+  },
+  "src/components/PokemonCard/TeamCard.jsx": {
+    "mtime": 1790026107.4540646,
+    "seen": 1790034045.4384153,
+    "ast_hash": "3d43877663b35a9bf591adfc6cc786ac",
+    "semantic_hash": ""
+  },
+  "src/components/StatBars.jsx": {
+    "mtime": 1789134797.5855396,
+    "seen": 1790034045.4384167,
+    "ast_hash": "bc7beba677d9a05d8f1c12d023a62967",
+    "semantic_hash": ""
+  },
+  "src/components/TypeBadge.jsx": {
+    "mtime": 1789134778.2323236,
+    "seen": 1790034045.438418,
+    "ast_hash": "4387fe444ec61d8b1488a0f95ad391e8",
+    "semantic_hash": ""
+  },
+  "src/components/TypeEffectiveness.jsx": {
+    "mtime": 1789134859.0358582,
+    "seen": 1790034045.438419,
+    "ast_hash": "c3b8ee43ac809fdeac59d65b1e9f9ed3",
+    "semantic_hash": ""
+  },
+  "src/constants.js": {
+    "mtime": 1789134456.1722348,
+    "seen": 1790034045.4384205,
+    "ast_hash": "4d3fdfb8f68c08252d8d151f30c04a95",
+    "semantic_hash": ""
+  },
+  "src/context/GameContext.jsx": {
+    "mtime": 1790027394.9899063,
+    "seen": 1790034045.4384215,
+    "ast_hash": "984da61f1614b6e1ef8743fe41f4a3cb",
+    "semantic_hash": ""
+  },
+  "src/data/maps.js": {
+    "mtime": 1790033078.9231446,
+    "seen": 1790034045.4384234,
+    "ast_hash": "0bba8a760f933c8baca52863b1f35e34",
+    "semantic_hash": ""
+  },
+  "src/data/moves.js": {
+    "mtime": 1790027394.985679,
+    "seen": 1790034045.4384246,
+    "ast_hash": "d726b6da4840a1299c8e90b22164416a",
+    "semantic_hash": ""
+  },
+  "src/data/pokemon.js": {
+    "mtime": 1790025706.9093595,
+    "seen": 1790034045.438426,
+    "ast_hash": "b976c282e85a7877b3d027911b4ef86e",
+    "semantic_hash": ""
+  },
+  "src/hooks/useBattle.js": {
+    "mtime": 1789134762.5177736,
+    "seen": 1790034045.4384274,
+    "ast_hash": "7366ddf9a20df9736cad567e4bff5433",
+    "semantic_hash": ""
+  },
+  "src/hooks/useCompanion.js": {
+    "mtime": 1790033508.2127552,
+    "seen": 1790034045.4384286,
+    "ast_hash": "d55d505afc306227795d40080a06abbd",
+    "semantic_hash": ""
+  },
+  "src/hooks/usePlayerController.js": {
+    "mtime": 1790033168.496379,
+    "seen": 1790034045.4384303,
+    "ast_hash": "894cfe6bc2083f38577d23fcc99eef40",
+    "semantic_hash": ""
+  },
+  "src/hooks/usePokemon.js": {
+    "mtime": 1789134697.1398742,
+    "seen": 1790034045.4384317,
+    "ast_hash": "5705de48e3967bed7f97b65e5d042093",
+    "semantic_hash": ""
+  },
+  "src/main.jsx": {
+    "mtime": 1790026492.2621095,
+    "seen": 1790034045.4384327,
+    "ast_hash": "6b158ddd935c402a6645d323caf3152f",
+    "semantic_hash": ""
+  },
+  "src/pages/BattleArena.jsx": {
+    "mtime": 1790030153.5591483,
+    "seen": 1790034045.4384341,
+    "ast_hash": "ad55ba0c97f81b62d805219da3b26fc8",
+    "semantic_hash": ""
+  },
+  "src/pages/Home.jsx": {
+    "mtime": 1790026408.7019541,
+    "seen": 1790034045.438435,
+    "ast_hash": "e615be61ab7f1cb53a2ae5d1ee4485e4",
+    "semantic_hash": ""
+  },
+  "src/pages/Pokedex.jsx": {
+    "mtime": 1790026467.3359966,
+    "seen": 1790034045.438436,
+    "ast_hash": "fa16916a3e7d74748e2fec82254d0702",
+    "semantic_hash": ""
+  },
+  "src/pages/World.jsx": {
+    "mtime": 1790033530.1295774,
+    "seen": 1790034045.4384367,
+    "ast_hash": "9f10535b9d2b848a79aa09081a840f73",
+    "semantic_hash": ""
+  },
+  "src/services/pokeApi.js": {
+    "mtime": 1789134591.8156872,
+    "seen": 1790034045.4384382,
+    "ast_hash": "be0b9fc35fa4f83c900e054305190715",
+    "semantic_hash": ""
+  },
+  "src/systems/collision.js": {
+    "mtime": 1790033500.5812688,
+    "seen": 1790034045.4384391,
+    "ast_hash": "d5640cf311f099f1910f0b7bab14c921",
+    "semantic_hash": ""
+  },
+  "src/systems/interactions.js": {
+    "mtime": 1790033471.6628242,
+    "seen": 1790034045.43844,
+    "ast_hash": "5069cb6bd004aa2722a85043eaf10efc",
+    "semantic_hash": ""
+  },
+  "src/utils/battle.js": {
+    "mtime": 1790025909.9128423,
+    "seen": 1790034045.4384415,
+    "ast_hash": "cc99224428d047ab871d839980844f0f",
+    "semantic_hash": ""
+  },
+  "src/utils/game.js": {
+    "mtime": 1790027531.0738583,
+    "seen": 1790034045.4384425,
+    "ast_hash": "94b7b2820f94cbc9b37629a0f9b4a9be",
+    "semantic_hash": ""
+  },
+  "src/utils/game.selfcheck.js": {
+    "mtime": 1790033486.6466992,
+    "seen": 1790034045.4384434,
+    "ast_hash": "5a2ead792351e897007713dd4bcd71d5",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1790028470.2882333,
+    "seen": 1790034045.4384444,
+    "ast_hash": "d2fdae36855142c00338fba825492653",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1789134340.92444,
+    "seen": 1790034045.4384453,
+    "ast_hash": "75eb386f17caf77fd6fe3ce1d90968ee",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1790026843.4494584,
+    "seen": 1790034045.4384468,
+    "ast_hash": "b73d606bdd9b41294049e46e5a19a85c",
+    "semantic_hash": ""
+  },
+  "public/favicon.svg": {
+    "mtime": 1789134340.9327154,
+    "seen": 1790034045.438449,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": ""
+  },
+  "public/icons.svg": {
+    "mtime": 1789134340.9337218,
+    "seen": 1790034045.4384499,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "public/maps/reference/arena.png": {
+    "mtime": 1790049604.0,
+    "seen": 1790034045.4384506,
+    "ast_hash": "41c17512b65e9d4a6f8b6e000ca37877",
+    "semantic_hash": ""
+  },
+  "public/maps/reference/jungle.png": {
+    "mtime": 1790049600.0,
+    "seen": 1790034045.4384522,
+    "ast_hash": "a3c6adc3aa2e0f5dda51f1a7e82595df",
+    "semantic_hash": ""
+  },
+  "public/maps/reference/sprites.png": {
+    "mtime": 1790049594.0,
+    "seen": 1790034045.4384532,
+    "ast_hash": "70b3b14376dda7f6a3d87cd0be3b02b1",
+    "semantic_hash": ""
+  },
+  "public/maps/reference/volcano.png": {
+    "mtime": 1790049594.0,
+    "seen": 1790034045.4384553,
+    "ast_hash": "29d236b478ede1055fb9cc40508d6957",
+    "semantic_hash": ""
+  },
+  "public/maps/reference/water.png": {
+    "mtime": 1790049594.0,
+    "seen": 1790034045.4384563,
+    "ast_hash": "fc99a30bb68e60dee532fe037c6be611",
+    "semantic_hash": ""
+  },
+  "public/maps/world-atlas.svg": {
+    "mtime": 1790030694.406374,
+    "seen": 1790034045.438457,
+    "ast_hash": "0193c4b908fa81c9fd8c6439748f97ad",
+    "semantic_hash": ""
+  },
+  "src/assets/hero.png": {
+    "mtime": 1789134340.9383354,
+    "seen": 1790034045.4384582,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "src/assets/react.svg": {
+    "mtime": 1789134340.9383354,
+    "seen": 1790034045.438459,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  },
+  "src/assets/vite.svg": {
+    "mtime": 1789134340.9412887,
+    "seen": 1790034045.43846,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  }
+}

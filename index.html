@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Arena</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <main class="app">
+
+        <header class="main-header">
+            <div class="brand-mark" aria-hidden="true">
+                <span class="brand-ring">✦</span>
+                <span class="brand-line"></span>
+                <span>POKÉMON DATABASE &amp; BATTLE</span>
+                <span class="brand-line"></span>
+                <span class="brand-ring">✦</span>
+            </div>
+            <h1>Pokémon <span>Arena</span></h1>
+            <p class="subtitle">
+                Busca un Pokémon, conoce sus características
+                y enfréntalo contra otro Pokémon.
+            </p>
+        </header>
+
+        <section class="search-panel">
+            <div class="panel-topline">
+                <span class="panel-dot"></span> POKÉDEX SEARCH
+                <span class="panel-status">● ONLINE</span>
+            </div>
+
+            <form id="searchForm" class="search-form">
+
+                <div class="search-field">
+                    <label for="pokemonInput">Pokémon</label>
+
+                    <input
+                        type="text"
+                        id="pokemonInput"
+                        placeholder="Ej: Pikachu o 25"
+                        autocomplete="off"
+                    >
+                </div>
+
+                <button type="submit" id="searchButton" class="button button-search">
+                    🔎 Buscar
+                </button>
+
+                <button type="button" id="battleButton" class="button button-battle">
+                    ⚔️ Pelear
+                </button>
+
+            </form>
+        </section>
+
+        <section class="messages" aria-live="polite" aria-atomic="true">
+            <p id="loadingMessage"></p>
+            <p id="errorMessage" role="alert"></p>
+        </section>
+
+        <section id="pokemonResult" class="pokemon-result"></section>
+
+        <section id="battleSection" class="battle-section hidden">
+
+            <div class="battle-title">
+                <div class="arena-kicker">⚡ BATTLE MODE ⚡</div>
+                <h2>⚔️ Arena Pokémon</h2>
+                <p>Selecciona dos Pokémon para comenzar la batalla.</p>
+            </div>
+
+            <div class="battle-search">
+
+                <div class="battle-selector">
+                    <label for="pokemonOneInput">Pokémon 1</label>
+
+                    <div class="selector-row">
+                        <input
+                            type="text"
+                            id="pokemonOneInput"
+                            placeholder="Ej: Pikachu"
+                            autocomplete="off"
+                        >
+
+                        <button type="button" id="pokemonOneButton" class="button">
+                            Elegir
+                        </button>
+                    </div>
+                </div>
+
+                <div class="battle-selector">
+                    <label for="pokemonTwoInput">Pokémon 2</label>
+
+                    <div class="selector-row">
+                        <input
+                            type="text"
+                            id="pokemonTwoInput"
+                            placeholder="Ej: Charizard"
+                            autocomplete="off"
+                        >
+
+                        <button type="button" id="pokemonTwoButton" class="button">
+                            Elegir
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="battleArena" class="battle-arena">
+
+                <div id="fighterOne" class="fighter-card fighter-one">
+                    <p class="empty-fighter">Esperando Pokémon 1...</p>
+                </div>
+
+                <div class="versus">
+                    <span>VS</span>
+                </div>
+
+                <div id="fighterTwo" class="fighter-card fighter-two">
+                    <p class="empty-fighter">Esperando Pokémon 2...</p>
+                </div>
+
+            </div>
+
+            <button type="button" id="startBattleButton" class="start-battle hidden">
+                ⚔️ ¡COMENZAR BATALLA!
+            </button>
+
+            <div id="battleStatus" class="battle-status"></div>
+
+            <section class="battle-log-section">
+                <div class="log-heading">
+                    <span>📜</span>
+                    <div>
+                        <small>BATTLE FEED</small>
+                        <h3>Registro de batalla</h3>
+                    </div>
+                </div>
+
+                <div id="battleLog" class="battle-log">
+                    <p>Selecciona dos Pokémon para comenzar.</p>
+                </div>
+            </section>
+
+            <div id="battleWinner" class="battle-winner"></div>
+
+            <button type="button" id="restartBattleButton" class="button restart-button hidden">
+                🔄 Nueva batalla
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
