@@ -1,4 +1,6 @@
 # React + Vite
+samuel david ortiz pico 
+https://samueldavidortizpico-hash.github.io/base-pokedex-20262/
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
